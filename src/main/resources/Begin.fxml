@@ -4,10 +4,12 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.MainController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="test.MainController">
 
     <ImageView fx:id="mainImage" layoutX="200.0" layoutY="125.0">
-        <Image fx:id="im1" url="@new.png" />
+        <Image fx:id="im1" url="@new.png"/>
     </ImageView>
 
 </AnchorPane>
