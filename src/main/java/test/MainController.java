@@ -22,12 +22,12 @@ public class MainController {
      * указать значение больше на 181 (это 0, 181, 362, 543)
      **/
 
-    private static final int COLUMNS = 5; // Количество колонок
+    private static final int COLUMNS = 7; // Количество колонок
     private static final int COUNT = 7; // Количество в линию image
-    private static final int OFFSET_X = 0; // Координата отсчета ддя кортинки(началоьная)
-    private static final int OFFSET_Y = 0; // Координата отсчета ддя кортинки(конечная)
-    private static final int WIDTH = 177; // Ширина
-    private static final int HEIGHT = 181; // Высота
+    private static final int OFFSET_X = 0; // Координата отсчета ддя картинки(начальная)
+    private static final int OFFSET_Y = 0; // Координата отсчета ддя картинки(конечная)
+    private static final int WIDTH = 189; // Ширина
+    private static final int HEIGHT = 160; // Высота
 
     @FXML
     public void initialize() {
